@@ -7,8 +7,8 @@ export default function wrapperMain() {
     return (
         <div>
         <ImageWrapper />
-        <RedSection />
-        <BlueSection />
+        {/* <RedSection />
+        <BlueSection /> */}
         </div>
     );
     }

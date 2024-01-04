@@ -6,6 +6,7 @@ const ImageWrapper = () => {
     <div className="image-section">
       <img src="imageWrapper.png" alt="Descriptive Text" />
       <h1 className="image-section-title" data-text="HackFed">HackFed</h1>
+      <h4 className="image-section-temp" data-text="Coming-Soon">Coming Soon</h4>
     </div>
   );
 }
