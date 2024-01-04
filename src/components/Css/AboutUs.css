@@ -1,0 +1,18 @@
+.about-us {
+    color: #1c2e21; 
+    
+    font-family:Roboto,sans-serif;
+    font-weight: 700;
+    letter-spacing: 0em;
+    line-height: 1.6;
+    font-size: 1em;
+    height: 100%;
+    width: 100%;
+
+    padding: 1rem 0 1rem 0;
+    /* border-color: black; 
+     border-width: 0.23rem;
+     border-style: solid; */
+    /* text-align: center; */
+
+}

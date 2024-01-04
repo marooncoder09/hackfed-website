@@ -1,0 +1,38 @@
+.navbar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent; /* Initial transparent background */
+    transition: background-color 0.3s; /* Smooth transition for background color change */
+    padding: 0.5rem 1rem;
+    box-sizing: border-box; /* Ensures padding doesn't affect total width */
+    z-index: 1000; /* Make sure navbar stays on top */
+  }
+  
+  .navbar-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .navbar-links li a {
+    color: #e5eae7;
+    text-decoration: none;
+  }
+  
+  .navbar-links li a:hover {
+    color: #b3c2bf;
+  }
+  
+  .navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.6); /* Translucent white background */
+  }
